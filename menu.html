@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theta Foods — Menu</title>
+    <link rel="stylesheet" href="menu.style.css">
+    <style>
+        .order-msg {
+            color: green;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header class="header">
+   <div class="logo">
+        <img src="images/theta-logo.gif" alt="Theta Foods Logo" class="logo-img">
+        THETA FOODS
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="nav-btn">Home</a></li>
+            <li><a href="menu.html" class="nav-btn">Menu</a></li>
+            <li><a href="aboutus.html" class="nav-btn">About Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>THETA FOODS</h1>
+        <p>Fresh, Delicious, Made with Quality Ingredients</p>
+    </div>
+</section>
+
+<section id="categories">
+    <button class="btn active" data-cat="burgers">Burgers</button>
+    <button class="btn" data-cat="pizza">Pizza</button>
+    <button class="btn" data-cat="fries">Fries</button>
+    <button class="btn" data-cat="drinks">Drinks</button>
+    <button class="btn" data-cat="desserts">Desserts</button>
+</section>
+
+<main class="menu-grid">
+
+    <div class="menu-item" data-cat="burgers">
+        <img src="images/zinger.jpg" alt="Zinger Burger">
+        <h3>Zinger Burger <span class="price">Rs 600</span></h3>
+        <p>Crispy chicken fillet with spicy mayo.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="burgers">
+        <img src="images/chicken_fillet.jpg" alt="Chicken Fillet Burger">
+        <h3>Chicken Fillet Burger <span class="price">Rs 650</span></h3>
+        <p>Juicy chicken fillet with mayo and fresh veggies.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="burgers">
+        <img src="images/classic_burger.jpg" alt="Classic Burger">
+        <h3>Classic Burger <span class="price">Rs 450</span></h3>
+        <p>Chicken patty with lettuce, tomato, and sauce.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="burgers">
+        <img src="images/fiery_zinger.jpg" alt="Fiery Zinger">
+        <h3>Fiery Zinger <span class="price">Rs 700</span></h3>
+        <p>Spicy Zinger fillet with hot sauce and lettuce.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="burgers">
+        <img src="images/tower_burger.jpg" alt="Tower Burger">
+        <h3>Tower Burger <span class="price">Rs 750</span></h3>
+        <p>Double chicken fillet with lettuce, cheese, and special sauce.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="menu-item" data-cat="pizza">
+        <img src="images/pepper_bbq_chicken.jpg" alt="Pepper BBQ Chicken">
+        <h3>Pepper BBQ Chicken <span class="price">Rs 950</span></h3>
+        <p>Spicy grilled chicken with BBQ sauce and mozzarella.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="pizza">
+        <img src="images/chicken_tikka.jpg" alt="Chicken Tikka">
+        <h3>Chicken Tikka <span class="price">Rs 950</span></h3>
+        <p>Spiced chicken tikka chunks with mozzarella cheese.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="pizza">
+        <img src="images/farmhouse.jpg" alt="Farmhouse">
+        <h3>Farmhouse <span class="price">Rs 900</span></h3>
+        <p>Onion, capsicum, tomato, and mushroom topping.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="pizza">
+        <img src="images/mexican_green_wave.jpg" alt="Mexican Green Wave">
+        <h3>Mexican Green Wave <span class="price">Rs 950</span></h3>
+        <p>Jalapenos, capsicum, onions with Mexican spices.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="pizza">
+        <img src="images/veggie_supreme.jpg" alt="Veggie Supreme">
+        <h3>Veggie Supreme <span class="price">Rs 850</span></h3>
+        <p>Capsicum, onion, tomato, mushrooms with extra cheese.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="menu-item" data-cat="fries">
+        <img src="images/fries.jpg" alt="French Fries">
+        <h3>French Fries <span class="price">Rs 200</span></h3>
+        <p>Golden and crispy potato fries.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="fries">
+        <img src="images/cheesy_fries.jpg" alt="Cheesy Fries">
+        <h3>Cheesy Fries <span class="price">Rs 250</span></h3>
+        <p>Fries topped with melted cheese.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="fries">
+        <img src="images/spicy_wedges.jpg" alt="Spicy Wedges">
+        <h3>Spicy Wedges <span class="price">Rs 220</span></h3>
+        <p>Potato wedges with spicy seasoning.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="fries">
+        <img src="images/curly_fries.jpg" alt="Curly Fries">
+        <h3>Curly Fries <span class="price">Rs 230</span></h3>
+        <p>Seasoned spiral fries, crispy and golden.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="fries">
+        <img src="images/baked_fries.jpg" alt="Baked Fries">
+        <h3>Baked Fries <span class="price">Rs 210</span></h3>
+        <p>Healthy baked potato fries with herbs.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="menu-item" data-cat="drinks">
+        <img src="images/pepsi.jpg" alt="Pepsi">
+        <h3>Pepsi <span class="price">Rs 120</span></h3>
+        <p>Chilled and refreshing beverage.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="drinks">
+        <img src="images/7up.jpg" alt="7Up">
+        <h3>7Up <span class="price">Rs 120</span></h3>
+        <p>Refreshing lemon-lime soft drink.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="drinks">
+        <img src="images/mirinda.jpg" alt="Mirinda">
+        <h3>Mirinda <span class="price">Rs 120</span></h3>
+        <p>Orange-flavored soft drink.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="drinks">
+        <img src="images/mountain_dew.jpg" alt="Mountain Dew">
+        <h3>Mountain Dew <span class="price">Rs 120</span></h3>
+        <p>Citrus-flavored soft drink.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="drinks">
+        <img src="images/cold_coffee.jpg" alt="Cold Coffee">
+        <h3>Cold Coffee <span class="price">Rs 200</span></h3>
+        <p>Chilled coffee with milk and ice.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="menu-item" data-cat="desserts">
+        <img src="images/chocolate_sundae.jpg" alt="Chocolate Sundae">
+        <h3>Chocolate Sundae <span class="price">Rs 250</span></h3>
+        <p>Ice cream with chocolate syrup and toppings.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="desserts">
+        <img src="images/vanilla_icecream.jpg" alt="Vanilla Ice Cream">
+        <h3>Vanilla Ice Cream <span class="price">Rs 200</span></h3>
+        <p>Creamy vanilla-flavored ice cream.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="desserts">
+        <img src="images/brownie_icecream.jpg" alt="Brownie with Ice Cream">
+        <h3>Brownie with Ice Cream <span class="price">Rs 350</span></h3>
+        <p>Warm brownie topped with ice cream.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="desserts">
+        <img src="images/hot_fudge_cake.jpg" alt="Hot Fudge Cake">
+        <h3>Hot Fudge Cake <span class="price">Rs 400</span></h3>
+        <p>Rich chocolate cake with hot fudge sauce.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+    <div class="menu-item" data-cat="desserts">
+        <img src="images/apple_pie.jpg" alt="Apple Pie">
+        <h3>Apple Pie <span class="price">Rs 300</span></h3>
+        <p>Classic baked apple pie with cinnamon.</p>
+        <button class="order-btn">Order Now</button>
+    </div>
+
+</main>
+
+<script>
+    const orderButtons = document.querySelectorAll('.order-btn');
+
+    orderButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            const menuItem = button.parentElement;
+
+            let msg = menuItem.querySelector('.order-msg');
+            if (!msg) {
+                msg = document.createElement('p');
+                msg.classList.add('order-msg');
+                msg.textContent = "Your order has been placed!";
+                menuItem.appendChild(msg);
+            }
+        });
+    });
+
+    const buttons = document.querySelectorAll('#categories .btn');
+    const items = document.querySelectorAll('.menu-item');
+
+    buttons.forEach(btn => {
+        btn.addEventListener('click', () => {
+            buttons.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const cat = btn.getAttribute('data-cat');
+            items.forEach(i => {
+                i.style.display = (i.dataset.cat === cat) ? 'block' : 'none';
+            });
+        });
+    });
+
+    items.forEach(i => {
+        i.style.display = (i.dataset.cat === 'burgers') ? 'block' : 'none';
+    });
+</script>
+
+</body>
+</html>
